@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Disign</title>
+    <link rel="stylesheet" href="pro3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <script src="https://kit.fontawesome.com/96f05574a8.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <section class="part12">
+        <div class="navbar">
+                <a  href="HOME.html">
+                    <img src="logo.png" class="logo">
+                </a>
+
+                <i class="fa-solid fa-bars " id="bars" onclick="myname()"></i>
+            <div class="menu" >
+                
+                    <a class="write1" href="HOME.html">HOME</a>
+                    <a class="write2" href="ABOUT.html">ABOUT</a>
+                    <a class="write3" href="COURSE.html">COURSE</a>
+                    <a class="write4" href="BLOG.html">BLOG</a>
+                    <a class="write5" href="CONTACT.html">CONTACT</a>  
+                
+            </div>
+        </div>
+        <div class="About">
+                <h1>Contact Us</h1>
+        </div>
+
+    </section>
+    <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d3251.4206707087956!2d0.3319465512082663!3d35.41960785349399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d35.420454299999996!2d0.333623!4m0!5e0!3m2!1sen!2sdz!4v1662411476929!5m2!1sen!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+    </section>
+    <section class="part32">
+        <div class="calls">
+                <div class="location1">
+                    <i class="fa-solid fa-house"></i>
+                    <div>
+                        <h1>100 Logement Social</h1>
+                        <p>Tighennif Mascara Algeria</p>
+                    </div>
+                </div>
+                <div class="location1">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="location">
+                        <h1>+213557231478</h1>
+                        <p>Monday to Sunday 10am to 6pm</p>
+                    </div>
+                </div>
+                    <div class="location1">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h1>abdelhalimb40@gmil.com</h1>
+                            <p>Email Us Your Quiry </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="container43" >
+            <h1>Leave A Comment</h1>
+            <p>name :</p>
+            <input type="text" name="" id="name4" > 
+            <p>your email :</p>
+            <input type="email" name="" id="email4" >
+            <p>your comment :</p>
+            <textarea name="" id="text4" cols="30" rows="10" ></textarea>
+            <button type="submit"><a  style="color:rgb(0, 0, 0);">post coment</a></button>                      
+        </div>
+    </section>
+<section class="part7">
+    <h1> About Us </h1>
+    <p>Loren ipusm dolor site amet. concecteture adipiching elit site amet. concecteture adipich</p>
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <p style="font-size: .9rem;">Made by <a href="https://halim-19.github.io/baki/portfoli" style="text-decoration:none;">@halim-bensalem</a></p>
+</section>
+    <script>
+        const write1=document.querySelector(".write1");
+        const write2=document.querySelector(".write2");
+        const write3=document.querySelector(".write3");
+        const write4=document.querySelector(".write4");
+        const write5=document.querySelector(".write5");
+        const body=document.querySelector(".body");
+        const menu=document.querySelector(".menu");
+        let open=false;
+        function myname() {
+            if (!open) {
+                menu.style.width="0%";
+                write1.style.visibility="hidden";
+                write2.style.visibility="hidden";
+                write3.style.visibility="hidden";
+                write4.style.visibility="hidden";
+                write5.style.visibility="hidden";
+                body.style.overflow="";
+                open=true;
+                
+            } else {
+                menu.style.width="100%";
+                write1.style.visibility="visible";
+                write2.style.visibility="visible";
+                write3.style.visibility="visible";
+                write4.style.visibility="visible";
+                write5.style.visibility="visible";
+                body.style.overflow="hidden";
+                open=false;
+            }
+        };
+    </script>
+</body>
+</html>
